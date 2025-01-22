@@ -1,0 +1,75 @@
+2025 Syllabus
+
+Getting Started
+1.	Introduction to Python: Explain what Python is and show how to print "Hello, World!".
+2.	Setting Up Python: Install Python and set up an IDE like IDLE or PyCharm.
+3.	Python as a Calculator: Teach basic arithmetic operations (+, -, *, /).
+4.	Variables and Data Types: Introduce variables and different  /types of data (int, float, string).
+________________________________________
+Basic Programming Concepts
+5.	String Manipulation: Explore how to join, slice, and repeat strings.
+6.	Making Decisions: Introduce if, elif, and else for decision-making.
+7.	Loops: Teach for and while loops using fun examples like counting numbers.
+8.	Lists: Introduce lists and how to add, remove, and access items.
+9.	Dictionaries: Teach key-value pairs and how to store information in dictionaries.
+10.	Functions: Write simple functions like greeting someone by name.
+________________________________________
+Creative Projects
+11.	Mad Libs Game: Create a Mad Libs story using string input.
+12.	Number Guessing Game: Write a simple game to guess a random number.
+13.	Drawing with Turtle: Introduce the turtle module for simple graphics.
+14.	Create a Calculator: Build a basic calculator program.
+15.	Rock, Paper, Scissors Game: Write a simple game using conditionals.
+16.	Dice Roller: Simulate rolling dice using random.randint.
+________________________________________
+Data and Logic
+17.	Sorting Hat: Sort students into groups using random choice.
+18.	FizzBuzz: Teach logic by printing "Fizz", "Buzz", or "FizzBuzz".
+19.	Even and Odd Numbers: Write a program to identify even and odd numbers.
+20.	Palindrome Checker: Check if a word or phrase is a palindrome.
+21.	Simple Password Generator: Generate random passwords.
+________________________________________
+Working with Files
+22.	Read and Write Files: Show how to read from and write to text files.
+23.	Make a To-Do List: Save and load tasks in a text file.
+24.	Simple Quiz Game: Load quiz questions from a file.
+________________________________________
+Games and Fun
+25.	Hangman: Build a basic version of the Hangman game.
+26.	Guess the Animal: Create a simple quiz about animals.
+27.	Magic 8-Ball: Write a program to predict the future.
+28.	Pong with Turtle: Create a simple Pong game using the turtle module.
+29.	Memory Game: Teach loops and lists by building a simple memory game.
+________________________________________
+Problem Solving
+30.	Simple Math Quiz: Create a math quiz with random numbers.
+31.	Find the Largest Number: Write a program to find the largest number in a list.
+32.	Prime Numbers: Teach how to check if a number is prime.
+33.	Tic-Tac-Toe: Create a basic Tic-Tac-Toe game.
+34.	Maze Solver: Introduce algorithms with a simple maze game.
+________________________________________
+Fun with Libraries
+35.	Draw with Python: Use matplotlib to make bar and pie charts.
+36.	Make Music: Introduce simple sound generation libraries like pygame.
+37.	Emoji Fun: Print fun emojis using Unicode characters.
+38.	Simple Animation: Animate objects using the turtle module.
+________________________________________
+Advanced Topics for Kids
+39.	Introduction to Classes: Explain classes using a simple animal class.
+40.	Recursion Basics: Use recursion to calculate factorials.
+41.	Simple Encryption: Teach Caesar Cipher for encrypting messages.
+________________________________________
+Real-World Connections
+42.	Weather App: Fetch weather data using an API like OpenWeatherMap.
+43.	Daily Planner: Create a simple planner with file storage.
+44.	Simple Voting System: Write a program to tally votes.
+________________________________________
+STEM Integration
+45.	Simulate a Race: Use turtle to race objects on the screen.
+46.	Planet Weight Calculator: Calculate weight on different planets.
+47.	Simulate a Dice Game: Teach probability using random numbers.
+48.	Fibonacci Series: Teach patterns using the Fibonacci sequence.
+________________________________________
+Project Wrap-Up
+49.	Build a Portfolio: Guide kids to create a portfolio of all their Python projects.
+50.	Group Project: Assign a group project to develop a game or app.

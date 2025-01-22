@@ -1,0 +1,9 @@
+Your teacher: Alex McKinley
+
+About Alex:
+Alex has been programming in several languages for the past three years. His projects span a wide range of applications, including websites, games, automated scripts, web scrapers, data science projects, dashboards, and chatbots.
+
+With almost 20 years of teaching experience in Japan, Alex is passionate about preparing the next generation for the digital future. He believes that learning to think like a programmer is an essential skill for children to succeed in an increasingly digital world.
+
+Teaching Philosophy:
+Alex combines his expertise in programming with his teaching experience to create engaging, hands-on learning environments. His goal is to empower students to solve problems creatively and develop the computational thinking skills needed to navigate the challenges of the digital age.
