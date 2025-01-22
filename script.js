@@ -1,4 +1,4 @@
-let language = 'EN';  // Default language
+let language = 'JP';  // Default language
 const contentFiles = {
     summary: {
         EN: 'content/summaryEN.txt',

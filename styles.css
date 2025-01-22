@@ -39,12 +39,14 @@ header {
 }
 
 #lang-btn {
+    position: fixed;
+    top: 10px;
+    right: 50px;
     background-color: #fffb00;
     padding: 10px 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
-    border-radius: 5px;
 }
 
 #lang-btn:hover {
@@ -55,6 +57,10 @@ header {
     padding: 20px;
     text-align: center;
     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
@@ -65,18 +71,112 @@ header {
     text-align: center;
     margin-bottom: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 50px;
 }
 
 .icon {
-    width: 100px;
+    max-width: 100px;
     height: auto;
 }
 
 #contact {
+    gap: 0;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
+#bottom-items-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Increase font size for better readability */
+    }
+
+    #top-banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #nav-bar {
+        margin-top: 10px;
+    }
+
+    .nav-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #lang-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .info {
+        width: 80%; /* Reduce width to fit smaller screens */
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 14px;
+    }
+
+    #bottom-border {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    #contact {
+        text-align: center; /* Center align text for small screens */
+    }
+
+    #bottom-items-row {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px;
+        align-items: center;
+    }
+
+    .icon {
+        max-width: 60px; /* Smaller icons for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Further reduce font size for very small screens */
+    }
+
+    .nav-button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    #lang-btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .info {
+        width: 90%; /* Further reduce width */
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 12px;
+    }
+
+    #bottom-border {
+        padding: 10px 5px;
+        gap: 10px;
+    }
+
+    #bottom-items-row {
+        gap: 10px;
+    }
+
+    .icon {
+        max-width: 50px; /* Adjust icons for very small screens */
+    }
+}
