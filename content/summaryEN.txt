@@ -1,25 +1,27 @@
-Course Summary: Python Programming (Beginner)
+<h2>Course Summary: Python Programming (Beginner)</h2>
 This course introduces elementary-aged children to programming through the versatile and beginner-friendly language of Python. Designed to be engaging and interactive, it covers a wide range of topics, including:
-1.	Basics of Programming:
-o	Setting up Python and writing the first code.
-o	Understanding variables, data types, and operators.
+<br>
+<b>1.	Basics of Programming:</b>
+Setting up Python and writing the first code.
+Understanding variables, data types, and operators.
+<br>
 2.	Foundational Concepts:
-o	Decision-making with conditional statements.
-o	Iteration using loops.
-o	Data organization with lists, dictionaries, and functions.
+Decision-making with conditional statements.
+Iteration using loops.
+Data organization with lists, dictionaries, and functions.
 3.	Creative Exploration:
-o	Building games like Rock-Paper-Scissors and Hangman.
-o	Animating and drawing with the Turtle library.
-o	Simulating real-world scenarios, like weather apps and simple encryption.
+Building games like Rock-Paper-Scissors and Hangman.
+Animating and drawing with the Turtle library.
+Simulating real-world scenarios, like weather apps and simple encryption.
 4.	Problem-Solving and Logic:
-o	Tackling challenges like FizzBuzz, prime number checkers, and memory games.
-o	Learning to approach problems algorithmically.
+Tackling challenges like FizzBuzz, prime number checkers, and memory games.
+Learning to approach problems algorithmically.
 5.	Practical Applications:
-o	Reading and writing files for quizzes and planners.
-o	Using Python libraries to create graphs and simple animations.
+Reading and writing files for quizzes and planners.
+Using Python libraries to create graphs and simple animations.
 6.	Collaborative Projects:
-o	Encouraging group work to design games or apps.
-o	Building a portfolio of projects that showcase their creativity and learning.
+Encouraging group work to design games or apps.
+Building a portfolio of projects that showcase their creativity and learning.
 ________________________________________
 Why It's Important for Children to Learn These Concepts in 2025
 1.	Building Future-Ready Skills:
