@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <header>
         <div id="top-banner">
             <button id="lang-btn">Switch Language</button>
@@ -18,15 +17,15 @@
             <h1>IKS Python Programming Course</h1>
 
             <div id="nav-bar">
-                <div class="nav-button" onclick="changeContent('summary')">About</div>
-                <div class="nav-button" onclick="changeContent('topics')">Topics</div>
-                <div class="nav-button" onclick="changeContent('teacher')">Teacher</div>
+                <div class="nav-button" onclick="loadContent('summary')">About</div>
+                <div class="nav-button" onclick="loadContent('topics')">Topics</div>
+                <div class="nav-button" onclick="loadContent('teacher')">Teacher</div>
             </div>
         </div>
     </header>
 
     <section class="info">
-        <p id="content"></p>
+        <div id="content">Please select a section to view content.</div>
     </section>
 
     <script src="script.js"></script>

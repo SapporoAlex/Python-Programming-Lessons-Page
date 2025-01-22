@@ -1,26 +1,38 @@
 let language = 'EN';  // Default language
-
-const content = {
+const contentFiles = {
     summary: {
-        EN: 'Welcome to the IKS Python Programming course. This course is designed for beginners who want to learn Python.',
-        JP: 'IKS Python プログラミングコースへようこそ。このコースはPythonを学びたい初心者向けに設計されています。'
+        EN: 'content/summaryEN.txt',
+        JP: 'content/summaryJP.txt'
     },
     topics: {
-        EN: 'In this course, we will cover the following topics: Variables, Loops, Functions, Object-Oriented Programming.',
-        JP: 'このコースでは、次のトピックを学びます：変数、ループ、関数、オブジェクト指向プログラミング。'
+        EN: 'content/topicsEN.txt',
+        JP: 'content/topicsJP.txt'
     },
     teacher: {
-        EN: 'Your teacher is a highly skilled Python developer with years of experience in the industry.',
-        JP: 'あなたの教師は業界での経験を持つ熟練のPython開発者です。'
+        EN: 'content/teacherEN.txt',
+        JP: 'content/teacherJP.txt'
     }
 };
 
-function changeContent(section) {
-    document.getElementById('content').innerText = content[section][language];
+// Function to change the content based on the section
+function loadContent(section) {
+    fetch(contentFiles[section][language])
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('content').innerText = text;
+        })
+        .catch(error => {
+            document.getElementById('content').innerText = 'Error loading content.';
+            console.error('Error loading content:', error);
+        });
 }
 
-document.getElementById('lang-btn').addEventListener('click', function() {
-    language = (language === 'EN') ? 'JP' : 'EN';  // Toggle between English and Japanese
+// Toggle language when button is clicked
+document.getElementById('lang-btn').addEventListener('click', function () {
+    language = (language === 'EN') ? 'JP' : 'EN';  // Toggle language
     document.getElementById('lang-btn').innerText = (language === 'EN') ? 'Switch to Japanese' : 'Switch to English';
-    changeContent('summary');  // Update content to match the new language
+    loadContent('summary');  // Reload the content when language is switched
 });
+
+// Load initial content (e.g., "summary") on page load
+loadContent('summary');
