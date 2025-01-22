@@ -90,6 +90,7 @@ header {
 #bottom-items-row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
