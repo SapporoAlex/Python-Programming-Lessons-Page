@@ -30,7 +30,7 @@ function loadContent(section) {
 // Toggle language when button is clicked
 document.getElementById('lang-btn').addEventListener('click', function () {
     language = (language === 'EN') ? 'JP' : 'EN';  // Toggle language
-    document.getElementById('lang-btn').innerText = (language === 'EN') ? 'Switch to Japanese' : 'Switch to English';
+    document.getElementById('lang-btn').innerText = (language === 'EN') ? '日本語' : 'English';
     loadContent('summary');  // Reload the content when language is switched
 });
 
