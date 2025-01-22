@@ -25,12 +25,12 @@ header {
 
 .nav-button {
     background-color: #0099cc;
-    padding: 10px 20px;
+    padding: 10px 40px;
     margin: 5px;
+    margin-bottom: 0;
     color: white;
     cursor: pointer;
     display: inline-block;
-    border-radius: 5px;
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 #lang-btn {
-    background-color: #ff9900;
+    background-color: #fffb00;
     padding: 10px 20px;
     margin-bottom: 20px;
     color: white;
@@ -53,4 +53,6 @@ header {
 
 .info {
     padding: 20px;
+    text-align: center;
+    width: 50%;
 }
