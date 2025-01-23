@@ -424,16 +424,20 @@ prevBtn.addEventListener('click', () => {
     updateCarousel();
 });
 
-// Handle window resizing
-window.addEventListener('resize', updateCarousel);
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 function scrollFunction() {
     if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
         topButton.style.display = "block";
-        navBar.style.position = "absolute";
     }
     else {
         topButton.style.display = "none";
-        navBar.style.position = "fixed";
     }
 }
+
+// Handle window resizing
+window.addEventListener('resize', updateCarousel);
+

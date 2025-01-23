@@ -20,15 +20,16 @@
             <div id="nav-bar">
                 <div class="nav-button" onclick="loadContent('summary')">Python</div>
                 <div class="nav-button" onclick="loadContent('topics')">Course</div>
-                <div class="nav-button" onclick="loadContent('teacher')">Teacher</div>
+                <div class="nav-button" onclick="loadContent('teacher')">Instructor</div>
             </div>
         </div>
     </header>
     <button onclick="topFunction()" id="top-button"></button>
 
-    <section class="info">
+    <section>
         <div class="carousel">
-            <button id="prev-btn">❮</button>
+            <button class="carousel-btn" id="prev-btn">&#8656;</button>
+            <button class="carousel-btn" id="next-btn">&#8658;</button>
             <div class="carousel-images">
                 <img src="imgs/image1.png" alt="Image 1">
                 <img src="imgs/image2.png" alt="Image 2">
@@ -37,8 +38,10 @@
                 <img src="imgs/image5.jpg" alt="Image 3">
                 <img src="imgs/image6.jpg" alt="Image 3">
             </div>
-            <button id="next-btn">❯</button>
+            
         </div>
+    </section>
+    <section class="info">
         <div id="content"></div>
     </section>
 
