@@ -228,6 +228,10 @@ footer {
     margin-bottom: 0;
     bottom: 0;
 }
+p {
+  font-size: 14;  
+}
+
 
 @media (max-width: 768px) {
     body {
