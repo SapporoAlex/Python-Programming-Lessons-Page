@@ -1,15 +1,68 @@
 body {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-    background-color: white;
-    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+ul {
+    margin: 10px 0 20px 20px;
+}
+ul li {
+    margin-bottom: 5px;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
 }
 
 header {
     background-color: #004d99;
     color: white;
     padding: 20px;
+    padding-bottom: 0;
     text-align: center;
 }
 
@@ -31,14 +84,38 @@ header {
     cursor: pointer;
     display: inline-block;
     text-align: center;
+    gap: 0;
 }
 
 .nav-button:hover {
     background-color: #0077aa;
 }
 
-#lang-btn {
+#top-button {
+    display: none;
     position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    border-radius: 50%;
+    background-image: url(imgs/top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    outline: #004d99;
+    border: none;
+    cursor: pointer;
+}
+
+#top-button:hover {
+    background-color: #0077aa;
+    outline: #0077aa, solid, 10px;
+}
+
+#lang-btn {
+    position: absolute;
     top: 10px;
     right: 50px;
     background-color: #fffb00;
@@ -55,9 +132,9 @@ header {
 .info {
     padding: 20px;
     text-align: left;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 0;
     margin-bottom: 10%;
 }
@@ -71,11 +148,10 @@ header {
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
-    gap: 50px;
 }
 
 .icon img {
-    max-width: 100px;
+    max-width: 50px;
     height: auto;
 }
 
@@ -89,8 +165,14 @@ header {
 #bottom-items-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
     gap: 50px;
+}
+
+#contact p {
+    margin-top: 2;
+    margin-bottom: 2;
 }
 
 @media (max-width: 768px) {

@@ -18,15 +18,28 @@
             <h1>Python Programming Course</h1>
 
             <div id="nav-bar">
-                <div class="nav-button" onclick="loadContent('summary')">About</div>
-                <div class="nav-button" onclick="loadContent('topics')">Topics</div>
+                <div class="nav-button" onclick="loadContent('summary')">Python</div>
+                <div class="nav-button" onclick="loadContent('topics')">Course</div>
                 <div class="nav-button" onclick="loadContent('teacher')">Teacher</div>
             </div>
         </div>
     </header>
+    <button onclick="topFunction()" id="top-button"></button>
 
     <section class="info">
-        <div id="content">Please select a section to view content.</div>
+        <div class="carousel">
+            <button id="prev-btn">❮</button>
+            <div class="carousel-images">
+                <img src="imgs/image1.png" alt="Image 1">
+                <img src="imgs/image2.png" alt="Image 2">
+                <img src="imgs/image3.jpg" alt="Image 3">
+                <img src="imgs/image4.png" alt="Image 3">
+                <img src="imgs/image5.jpg" alt="Image 3">
+                <img src="imgs/image6.jpg" alt="Image 3">
+            </div>
+            <button id="next-btn">❯</button>
+        </div>
+        <div id="content"></div>
     </section>
 
     <script src="script.js"></script>
