@@ -383,15 +383,8 @@ const contentFiles = {
 
 // Function to change the content based on the section
 function loadContent(section) {
-    fetch(contentFiles[section][language])
-        .then(response => response.text())
-        .then(text => {
-            document.getElementById('content').innerText = text;
-        })
-        .catch(error => {
-            document.getElementById('content').innerText = 'Error loading content.';
-            console.error('Error loading content:', error);
-        });
+    let text = contentFiles[section][language]
+        document.getElementById('content').innerText = text;
         document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
 }
 
