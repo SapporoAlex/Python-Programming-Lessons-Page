@@ -12,47 +12,47 @@ let language = 'JP';  // Default language
 const contentFiles = {
     summary: {
         EN: `
-<h2>Course Summary: Python Programming (Beginner)</h2>
-<p>This course introduces elementary-aged children to programming through the versatile and beginner-friendly language of Python. Designed to be engaging and interactive, it covers a wide range of topics, including:</p>
+    <h2>Course Summary: Python Programming (Beginner)</h2>
+    <p>This course introduces elementary-aged children to programming through the versatile and beginner-friendly language of Python. Designed to be engaging and interactive, it covers a wide range of topics, including:</p>
 
-<h3>1.	Basics of Programming:</h3>
-<p>Setting up Python and writing the first code.
-Understanding variables, data types, and operators.</p>
-<h3>2.	Foundational Concepts:</h3>
-<p>Decision-making with conditional statements.
-Iteration using loops.
-Data organization with lists, dictionaries, and functions.</p>
-<h3>3.	Creative Exploration:</h3>
-<p>Building games like Rock-Paper-Scissors and Hangman.
-Animating and drawing with the Turtle library.
-Simulating real-world scenarios, like weather apps and simple encryption.</p>
-<h3>4.	Problem-Solving and Logic:</h3>
-<p>Tackling challenges like FizzBuzz, prime number checkers, and memory games.
-Learning to approach problems algorithmically.</p>
-<h3>5.	Practical Applications:</h3>
-<p>Reading and writing files for quizzes and planners.
-Using Python libraries to create graphs and simple animations.</p>
-<h3>6.	Collaborative Projects:</h3>
-<p>Encouraging group work to design games or apps.
-Building a portfolio of projects that showcase their creativity and learning.</p>
-<br>
-________________________________________
-<h2>Why It's Important for Children to Learn These Concepts in 2025</h2>
-<h3>1.	Building Future-Ready Skills:</h3>
-<p>As technology continues to dominate industries, coding is becoming as essential as reading and math. Learning Python equips children with computational thinking, problem-solving skills, and creativity—foundations for success in a tech-driven world.</p>
-<h3>2.	Developing Logical and Critical Thinking:</h3>
-<p>Programming teaches children to break down complex problems into manageable steps, fostering logical reasoning and critical thinking skills that extend beyond coding.</p>
-<h3>3.	Encouraging Creativity:</h3>
-<p>Python's simplicity allows young learners to focus on creating fun and interactive projects, nurturing their imaginations while solving real-world problems.</p>
-<h3>4.	Introduction to STEM Careers:</h3>
-<p>Early exposure to coding can spark an interest in STEM fields, opening doors to careers in technology, engineering, science, and beyond.</p>
-<h3>5.	Empowering Digital Citizenship:</h3>
-<p>In 2025, understanding how technology works is crucial for navigating a digital society responsibly. By learning programming, children can become creators, not just consumers, of technology.</p>
-<h3>6.	Teamwork and Collaboration:</h3>
-<p>Through group projects, kids learn to communicate ideas, share responsibilities, and collaborate effectively—skills vital for future workplaces.</p>
-<br>
-<p>This course provides children with the tools to thrive in an increasingly digital world while fostering a love for problem-solving, creativity, and collaboration.</p>
-        `,
+    <h3>1.	Basics of Programming:</h3>
+    <p>Setting up Python and writing the first code.
+    Understanding variables, data types, and operators.</p>
+    <h3>2.	Foundational Concepts:</h3>
+    <p>Decision-making with conditional statements.
+    Iteration using loops.
+    Data organization with lists, dictionaries, and functions.</p>
+    <h3>3.	Creative Exploration:</h3>
+    <p>Building games like Rock-Paper-Scissors and Hangman.
+    Animating and drawing with the Turtle library.
+    Simulating real-world scenarios, like weather apps and simple encryption.</p>
+    <h3>4.	Problem-Solving and Logic:</h3>
+    <p>Tackling challenges like FizzBuzz, prime number checkers, and memory games.
+    Learning to approach problems algorithmically.</p>
+    <h3>5.	Practical Applications:</h3>
+    <p>Reading and writing files for quizzes and planners.
+    Using Python libraries to create graphs and simple animations.</p>
+    <h3>6.	Collaborative Projects:</h3>
+    <p>Encouraging group work to design games or apps.
+    Building a portfolio of projects that showcase their creativity and learning.</p>
+    <br>
+    ________________________________________
+    <h2>Why It's Important for Children to Learn These Concepts in 2025</h2>
+    <h3>1.	Building Future-Ready Skills:</h3>
+    <p>As technology continues to dominate industries, coding is becoming as essential as reading and math. Learning Python equips children with computational thinking, problem-solving skills, and creativity—foundations for success in a tech-driven world.</p>
+    <h3>2.	Developing Logical and Critical Thinking:</h3>
+    <p>Programming teaches children to break down complex problems into manageable steps, fostering logical reasoning and critical thinking skills that extend beyond coding.</p>
+    <h3>3.	Encouraging Creativity:</h3>
+    <p>Python's simplicity allows young learners to focus on creating fun and interactive projects, nurturing their imaginations while solving real-world problems.</p>
+    <h3>4.	Introduction to STEM Careers:</h3>
+    <p>Early exposure to coding can spark an interest in STEM fields, opening doors to careers in technology, engineering, science, and beyond.</p>
+    <h3>5.	Empowering Digital Citizenship:</h3>
+    <p>In 2025, understanding how technology works is crucial for navigating a digital society responsibly. By learning programming, children can become creators, not just consumers, of technology.</p>
+    <h3>6.	Teamwork and Collaboration:</h3>
+    <p>Through group projects, kids learn to communicate ideas, share responsibilities, and collaborate effectively—skills vital for future workplaces.</p>
+    <br>
+    <p>This course provides children with the tools to thrive in an increasingly digital world while fostering a love for problem-solving, creativity, and collaboration.</p>
+            `,
         JP: `
     <h2>コース概要：Pythonプログラミング（初級者向け）</h2>
     <p>このコースは、小学生を対象に、初心者に優しいプログラミング言語であるPythonを通じてプログラミングを学ぶ内容になっています。子どもたちが楽しく学べるよう工夫されたインタラクティブな構成で、以下の幅広いトピックをカバーします。</p>
