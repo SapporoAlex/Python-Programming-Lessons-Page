@@ -392,6 +392,7 @@ function loadContent(section) {
             document.getElementById('content').innerText = 'Error loading content.';
             console.error('Error loading content:', error);
         });
+        document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
 }
 
 // Toggle language when button is clicked
@@ -400,7 +401,7 @@ document.getElementById('lang-btn').addEventListener('click', function () {
     document.getElementById('lang-btn').innerText = (language === 'EN') ? '日本語' : 'English';
     loadContent('summary');  // Reload the content when language is switched
 
-    document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
+    
 });
 
 // Load initial content (e.g., "summary") on page load
