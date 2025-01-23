@@ -384,7 +384,7 @@ const contentFiles = {
 // Function to change the content based on the section
 function loadContent(section) {
     let text = contentFiles[section][language]
-        document.getElementById('content').innerText = text;
+        document.getElementById('content').innerHTML = text;
         document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
 }
 
