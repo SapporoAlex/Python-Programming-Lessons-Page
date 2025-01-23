@@ -1,5 +1,9 @@
 const navBar = document.getElementById("nav-bar");
 let topButton = document.getElementById("top-button");
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+const carouselImages = document.querySelector('.carousel-images');
+const images = document.querySelectorAll('.carousel-images img');
 
 window.onscroll = function() {scrollFunction()};
 
@@ -400,34 +404,27 @@ document.getElementById('lang-btn').addEventListener('click', function () {
 // Load initial content (e.g., "summary") on page load
 loadContent('summary');
 
-const carouselImages = document.querySelector('.carousel-images');
-const prevBtn = document.getElementById('prev-btn');
-const nextBtn = document.getElementById('next-btn');
 
-let autoIndex = 0;
 
-function autoCarousel() {
-    autoIndex = (autoIndex < carouselImages.children.length - 1) ? autoIndex + 1 : 0;
-    updateCarousel();
-}
-
-setInterval(autoCarousel, 3000);
+let currentIndex = 0;
 
 function updateCarousel() {
-    const width = carouselImages.children[0].clientWidth;
-    carouselImages.style.transform = `translateX(${-index * width}px)`;
+    const imageWidth = images[0].clientWidth;
+    carouselImages.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
 }
 
-prevBtn.addEventListener('click', () => {
-    index = (index > 0) ? index - 1 : carouselImages.children.length - 1;
-    updateCarousel();
-});
-
+// Event listeners for navigation
 nextBtn.addEventListener('click', () => {
-    index = (index < carouselImages.children.length - 1) ? index + 1 : 0;
+    currentIndex = (currentIndex + 1) % images.length;
     updateCarousel();
 });
 
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateCarousel();
+});
+
+// Handle window resizing
 window.addEventListener('resize', updateCarousel);
 
 function scrollFunction() {
