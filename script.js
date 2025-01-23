@@ -399,6 +399,8 @@ document.getElementById('lang-btn').addEventListener('click', function () {
     language = (language === 'EN') ? 'JP' : 'EN';  // Toggle language
     document.getElementById('lang-btn').innerText = (language === 'EN') ? '日本語' : 'English';
     loadContent('summary');  // Reload the content when language is switched
+
+    document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
 });
 
 // Load initial content (e.g., "summary") on page load
