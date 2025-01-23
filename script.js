@@ -403,6 +403,7 @@ loadContent('summary');
 
 
 let currentIndex = 0;
+const intervalTime = 4000;
 
 function updateCarousel() {
     const imageWidth = images[0].clientWidth;
@@ -419,6 +420,15 @@ prevBtn.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     updateCarousel();
 });
+
+function startAutoScroll() {
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateCarousel();
+    }, intervalTime);
+}
+
+startAutoScroll();
 
 function topFunction() {
     document.body.scrollTop = 0;
