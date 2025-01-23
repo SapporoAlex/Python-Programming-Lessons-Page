@@ -381,11 +381,16 @@ const contentFiles = {
     }
 };
 
+let timesLoaded = 0;
+
 // Function to change the content based on the section
 function loadContent(section) {
     let text = contentFiles[section][language]
         document.getElementById('content').innerHTML = text;
-        document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
+        if (timesLoaded > 0) {
+            document.querySelector('.info').scrollIntoView({behavior: 'smooth', block: 'start' });
+        }
+        timesLoaded++;
 }
 
 // Toggle language when button is clicked
