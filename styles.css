@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-.hd-logo {
+#hd-logo {
     max-width: 25vw;
     max-height: auto;
 }
