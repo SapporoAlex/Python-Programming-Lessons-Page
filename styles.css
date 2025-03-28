@@ -18,6 +18,7 @@ body {
 
 .hd-logo {
     max-width: 25%;
+    max-height: auto;
 }
 
 h1, h2 {
