@@ -16,6 +16,10 @@ body {
     margin: 0;
 }
 
+.hd-logo {
+    max-width: 25%;
+}
+
 h1, h2 {
     color: #333;
 }
