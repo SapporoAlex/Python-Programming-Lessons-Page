@@ -17,8 +17,9 @@ body {
 }
 
 #hd-logo {
-    max-width: 25vw;
+    max-width: 30vw;
     max-height: auto;
+    margin-bottom: 10px;
 }
 
 h1, h2 {
