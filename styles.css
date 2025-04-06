@@ -24,6 +24,7 @@ body {
 
 h1, h2 {
     color: #333;
+    
 }
 
 header h1 {
@@ -339,4 +340,34 @@ p {
     .icon {
         max-width: 50px; /* Adjust icons for very small screens */
     }
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Style for the error messages */
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Optional: Add some styling for the h1 */
+h1 {
+    font-size: 4em; /* Larger size for the main error */
+    font-weight: bold;
+}
+
+/* Optional: Add some styling for the h2 */
+h2 {
+    font-size: 1.5em;
+    color: #555; /* Slightly lighter color */
 }
